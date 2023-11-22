@@ -1,0 +1,36 @@
+.containerDiv{
+    background-image: url('../../assets/images/img_div.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    /* width: 100%; */
+}
+
+.faq_content{
+    margin-top: 25rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .faq_content{
+        margin-top: 18rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .faq_content{
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .faq_content{
+        margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .faq_content{
+        margin-top: 2rem;
+    }
+}

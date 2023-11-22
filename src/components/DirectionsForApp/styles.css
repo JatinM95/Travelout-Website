@@ -1,0 +1,17 @@
+.inscreen{
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+.sidetext{
+    width: 75%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .sidetext{
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+.containerDiv3{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.join-waitlist{
+    padding: 0.5rem;
+}
+
+.phones3div{
+    position: relative;
+}
+
+.phones3{
+    position: absolute;
+    display: block;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .join-waitlist{
+        padding: 0.4rem;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 820px) {
+    .phones3div{
+        position:static;
+    }
+    
+    .phones3{
+        position: static;
+        margin: auto;
+    }
+  }
+
+  /* @media only screen and (max-width: 768px) {
+    .phones3div{
+        position:relative;
+    }
+    
+    .phones3{
+        position: absolute;
+        margin: auto;
+        bottom: 0;
+    }
+  } */
