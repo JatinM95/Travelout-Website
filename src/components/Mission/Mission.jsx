@@ -4,14 +4,10 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import missionimg from '../../assets/images/our_mission_div.png'
 import collage from '../../assets/images/about_img_div.svg'
-import wmud from '../../assets/images/what_makes_us_different.svg'
-import videoimg from '../../assets/images/about_us_video_img.svg'
-import joinOurTeam from '../../assets/images/our_team_about_us.svg'
 // our_team_about_us
 
 function Mission() {
   return (
-    <>
     <Container>
         <Row className='mt-5 mb-5'>
             <Col sm="6">
@@ -44,17 +40,10 @@ function Mission() {
         <Row>
             <img src={collage} alt="collage" />
         </Row>
-        <Row>
+        {/* <Row>
             <img src={wmud} alt="what makes us different" />
-        </Row>
+        </Row> */}
     </Container>
-    <img src={videoimg} width={"100%"} alt="video image" className='mt-5'/>
-    <Container className='mb-5'>
-        <Row>
-            <img src={joinOurTeam} alt="join our team" />
-        </Row>
-    </Container>
-    </>
   )
 }
 

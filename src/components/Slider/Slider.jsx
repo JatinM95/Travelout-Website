@@ -37,7 +37,7 @@ function Slider() {
             />
             </div>
             <Carousel.Caption className='carousel-caption'>
-                <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Travel with your personality matched people</h3>
+                <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Connect instantly and plan your upcoming trip</h3>
                 <div className='bg-light rounded-pill border first-slide-div'>
                     <EmailWaitlist />
                 </div>
@@ -53,7 +53,7 @@ function Slider() {
             />
             </div>
             <Carousel.Caption className='carousel-caption'>
-                <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Travel with your personality matched people</h3>
+                <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Discover experiences and shop at great discounts</h3>
                 <div className='bg-light rounded-pill border first-slide-div'>
                     <EmailWaitlist />
                 </div>

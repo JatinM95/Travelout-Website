@@ -90,5 +90,6 @@
     .carousel-caption{
         top: 20px;
         bottom: auto;
+        /* color: lightgrey; */
     }
   }
