@@ -16,7 +16,7 @@ function DirectionsForApp() {
       {/* Row Head text*/}
         <Row className='mb-5'>
             <Col>
-            <h3 className='font-weight-bolder w-50 m-auto text-center' style={{fontSize:"3rem"}}>
+            <h3 className='font-weight-bolder m-auto text-center textHead' style={{fontSize:"3rem"}}>
                 How to find your travel buddy?
             </h3>
             </Col>

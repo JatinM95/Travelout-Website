@@ -10,8 +10,16 @@
     margin: auto;
 }
 
+.textHead{
+    width: 50%;
+}
+
 @media only screen and (max-width: 1024px) {
     .sidetext{
         width: 100%;
+    }
+
+    .textHead{
+        width: 75%;
     }
 }
