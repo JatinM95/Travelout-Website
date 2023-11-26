@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Carousel } from 'react-bootstrap'
 import slide1 from '../../assets/images/img_bgimg12.png'
 import slide2 from '../../assets/images/img_bgimg11_1121x1512.png'
@@ -8,6 +8,10 @@ import './styles.css'
 import EmailWaitlist from '../EmailWaitlist/EmailWaitlist'
 
 function Slider() {
+    const [successMessage, setSuccessMessage] = useState(""); 
+    const pull_data = (data) => {
+        setSuccessMessage(data); // LOGS DATA FROM CHILD (My name is Dean Winchester... &)
+      }
   return (
     <>
     <Carousel indicators={false}>
@@ -23,8 +27,9 @@ function Slider() {
             <Carousel.Caption className='carousel-caption'>
                 <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Travel with your personality matched people</h3>
                 <div className='bg-light rounded-pill border first-slide-div'>
-                    <EmailWaitlist />
+                    <EmailWaitlist func={pull_data}/>
                 </div>
+                <p className='text-dark'>{successMessage}</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,8 +44,9 @@ function Slider() {
             <Carousel.Caption className='carousel-caption'>
                 <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Connect instantly and plan your upcoming trip</h3>
                 <div className='bg-light rounded-pill border first-slide-div'>
-                    <EmailWaitlist />
+                    <EmailWaitlist func={pull_data}/>
                 </div>
+                <p className='text-dark'>{successMessage}</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -55,8 +61,9 @@ function Slider() {
             <Carousel.Caption className='carousel-caption'>
                 <h3 className='font-weight-bolder text-dark text-center first-slide-text'>Discover experiences and shop at great discounts</h3>
                 <div className='bg-light rounded-pill border first-slide-div'>
-                    <EmailWaitlist />
+                    <EmailWaitlist func={pull_data}/>
                 </div>
+                <p className='text-dark'>{successMessage}</p>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>

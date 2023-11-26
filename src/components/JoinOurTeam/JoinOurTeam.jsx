@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import founder1 from "../../assets/images/img_62b45a6fdc8fb83.png"
-import founder2 from "../../assets/images/img_62b45a70a08ac70.png"
-import founder3 from "../../assets/images/img_62b45a70257527d.png"
+import founder1 from "../../assets/images/founder1.jpeg"
+import founder2 from "../../assets/images/founder2.jpeg"
+import founder3 from "../../assets/images/founder3.jpg"
 import Image from 'react-bootstrap/Image';
 import './styles.css'
 
@@ -22,19 +22,19 @@ function JoinOurTeam() {
         </Row>
         <Row className='text-center'>
             <Col sm="4" className='p-5'>
-            <Image src={founder1} rounded fluid/>
+            <Image src={founder1} roundedCircle fluid/>
             <p className='mt-3 mb-0'>FOUNDER & CEO</p>
-            <h4>Jane Cooper</h4>
+            <h4>Theodora Chatzipavlidis</h4>
             </Col>
             <Col sm="4" className='p-5'>
-            <Image src={founder2} rounded fluid/>
-            <p className='mt-3 mb-0'>CO-FOUNDER & CMO</p>
-            <h4>Wade Warren</h4>
+            <Image src={founder2} roundedCircle fluid/>
+            <p className='mt-3 mb-0'>CO-FOUNDER & COO</p>
+            <h4>Parashos Nikoloudis</h4>
             </Col>
             <Col sm="4" className='p-5'>
-            <Image src={founder3} rounded fluid/>
+            <Image src={founder3} roundedCircle fluid/>
             <p className='mt-3 mb-0'>CO-FOUNDER & CTO</p>
-            <h4>Kristin Watson</h4>
+            <h4>Bhupendra Singh</h4>
             </Col>
         </Row>
     </Container>

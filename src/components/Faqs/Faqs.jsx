@@ -21,72 +21,42 @@ function Faqs() {
             <Accordion className='m-auto' flush>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                        <h6>How does it work?</h6>
+                        <h6>How Does Your App Ensure a Genuine Connection Between Travel Buddies?</h6>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    We understand the importance of meaningful connections. Our app goes beyond surface interests, using innovative algorithms to match you with travel buddies who share not just your destinations but also your passion for the emotional depth of the journey. Your travel companion is not just a co-traveler; they're a kindred spirit on the adventure of a lifetime.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                        <h6>How can I find the best personality matched travel buddy?</h6>
+                        <h6>How Does the App Cater to Different Travel Personalities?</h6>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Every traveler is unique, and so are their preferences. Our app is designed to celebrate diversity in travel styles. Whether you're an adrenaline junkie seeking thrills or a cultural enthusiast savoring every moment, we ensure that your travel personality is not just acknowledged but celebrated. Your journey, your way, with a companion who resonates with your emotional approach to travel.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>
-                        <h6>Is this platform free for travellers?</h6>
+                        <h6>What Safety Measures Does Your App Have in Place?</h6>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Safety is paramount. Our app is equipped with advanced safety features, from secure communication channels, real-time location sharing to different user verification stages. We understand the emotional importance of feeling secure, and we're committed to providing a platform where you can explore freely while having the peace of mind that your safety is our top priority.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                     <Accordion.Header>
-                        <h6>How can I protect my data?</h6>
+                        <h6>How Can Your App Enhance the Emotional Aspect of Solo Travel?</h6>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Solo travel is not just a physical journey; it's a deeply emotional experience. Our app is crafted to enhance the emotional aspects of solo adventures by connecting you with companions who resonate with your inner wanderer. From sharing sunsets on a beach to exploring ancient alleyways hand in hand, we believe in turning solo escapades into emotionally enriching odysseys.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="4">
                     <Accordion.Header>
-                        <h6>What are the subscription models?</h6>
+                        <h6>How Does Your App Foster Lasting Connections Beyond the Trip?</h6>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    We believe that the bonds formed during travel should extend beyond the journey itself. Our app is designed to foster lasting connections, encouraging you and your travel buddy to continue sharing experiences, memories, and emotional adventures even after you've reached your destination. Because the end of the trip doesn't have to mean the end of a beautiful connection.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

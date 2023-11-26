@@ -30,10 +30,9 @@ function Reviews() {
                     <Card className='w-75 mb-4' style={{marginRight:"20px"}}>
                     {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                     <Card.Body>
-                        <Card.Title>"The best experience to find a personality matched travel buddy"</Card.Title>
+                        <Card.Title>"Finding a Friend, Unleashing the Berlin Magic"</Card.Title>
                         <Card.Text>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                        ut aliquip ex ea commodo consequat aute irure dolor in non proident
+                        Embarking on a solo adventure to Berlin felt like a leap of faith, but with the app, I discovered Sarah—my perfect travel buddy. From exploring hidden gems to sharing late-night laughs, every moment was enriched by the connection we forged. This app transformed my solo trip into a kaleidoscope of shared memories, turning Berlin into our playground of friendship.
                         </Card.Text>
                         {/* <Button variant="primary">Go somewhere</Button> */}
                         <Container className='p-0' fluid>
@@ -43,7 +42,7 @@ function Reviews() {
                                 </Col>
                                 <Col>
                                 <div>
-                                <p className='mb-0'><strong>Sophia Moore</strong></p>
+                                <p className='mb-0'><strong>Emily</strong></p>
                                 <p className='mt-0'>Berlin</p>
                                 </div>
                                 </Col>
@@ -65,10 +64,9 @@ function Reviews() {
                     <Card className='w-75 mb-4'>
                     {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                     <Card.Body>
-                        <Card.Title>"The best experience to find a personality matched travel buddy"</Card.Title>
+                        <Card.Title>"Beyond Boundaries: A Journey with a Kindred Spirit"</Card.Title>
                         <Card.Text>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                        ut aliquip ex ea commodo consequat aute irure dolor in non proident
+                        In the heart of Stuttgart, I found more than a travel companion—I found a true friend. Thanks to the app, I connected with Lisa, whose passion for exploration mirrored mine. Our journey wasn't just about visiting landmarks; it was about discovering the magic that happens when two souls align. Stuttgart became the backdrop to a story of friendship written with every shared experience.
                         </Card.Text>
                         {/* <Button variant="primary">Go somewhere</Button> */}
                         <Container className='p-0' fluid>
@@ -78,8 +76,8 @@ function Reviews() {
                                 </Col>
                                 <Col>
                                 <div>
-                                <p className='mb-0'><strong>Jake Joseph</strong></p>
-                                <p className='mt-0'>Berlin</p>
+                                <p className='mb-0'><strong>Alex</strong></p>
+                                <p className='mt-0'>Stuttgart</p>
                                 </div>
                                 </Col>
                                 <Col className='d-flex justify-content-end'>
@@ -97,10 +95,9 @@ function Reviews() {
                     <Card className='w-75'>
                     {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                     <Card.Body>
-                        <Card.Title>"The best experience to find a personality matched travel buddy"</Card.Title>
+                        <Card.Title>"Athens Adventures: A Symphony of Shared Stories"</Card.Title>
                         <Card.Text>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-                        ut aliquip ex ea commodo consequat aute irure dolor in non proident
+                        Exploring the ancient wonders of Athens took on a new meaning when I met Michael through the app. Our connection went beyond the ruins; it echoed through the streets as we discovered the city's soul together. This app transformed my solo escapade into a symphony of shared stories, making Athens not just a destination but a chapter in our intertwined travel tale.
                         </Card.Text>
                         {/* <Button variant="primary">Go somewhere</Button> */}
                         <Container className='p-0' fluid>
@@ -110,8 +107,8 @@ function Reviews() {
                                 </Col>
                                 <Col>
                                 <div>
-                                <p className='mb-0'><strong>Olivia Barbosa</strong></p>
-                                <p className='mt-0'>Berlin</p>
+                                <p className='mb-0'><strong>Sofia</strong></p>
+                                <p className='mt-0'>Athens</p>
                                 </div>
                                 </Col>
                                 <Col className='d-flex justify-content-end'>
