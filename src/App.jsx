@@ -1,8 +1,8 @@
 import React from "react";
-import ProjectRoutes from "./Routes";
+import Router from "./Routes";
 
 function App() {
-  return <ProjectRoutes />;
+  return <Router />;
 }
 
 export default App;
