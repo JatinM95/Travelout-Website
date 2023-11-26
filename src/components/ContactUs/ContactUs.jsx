@@ -30,7 +30,7 @@ function ContactUs() {
             </Col>
             <Col lg="5">
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className='shadow-lg p-3'>
-                    <Row className='mb3'>
+                    <Row className='mb-3'>
                         <Form.Group as={Col} md="6" controlId="validationCustom01">
                             <Form.Label>First name*</Form.Label>
                             <Form.Control

@@ -2,9 +2,9 @@
     font-size: 4rem;
 }
 
-.first-slide-button{
+/* .first-slide-button{
     border-radius: 30px;
-}
+} */
 
 .first-slide-div{
     width:50%;
@@ -16,10 +16,10 @@
     bottom: -50px;
 }
 
-.slide-input{
+/* .slide-input{
     outline: none;
     border: none;
-}
+} */
 
 .carousel-caption{
     top: 80px;
@@ -32,9 +32,9 @@
     .first-slide-text{
         font-size: 3rem;
     }
-    .first-slide-button{
+    /* .first-slide-button{
         border-radius:30px;
-    }
+    } */
     .first-slide-div{
         width:58%;
         padding: 0.4rem;
@@ -45,9 +45,9 @@
     .first-slide-text{
         font-size: 2.5rem;
     }
-    .first-slide-button{
+    /* .first-slide-button{
         border-radius:30px;
-    }
+    } */
     .first-slide-div{
         width:69%;
         padding: 0.3rem;
@@ -56,10 +56,10 @@
     .overlayimg{
         bottom: -30px;
     }
-    .slide-input{
+    /* .slide-input{
         outline: none;
         border: none;
-    }
+    } */
     .carousel-caption{
         top: 40px;
         bottom: auto;
@@ -70,10 +70,10 @@
     .first-slide-text{
         font-size: 1.2rem;
     }
-    .first-slide-button{
+    /* .first-slide-button{
         border-radius:30px;
         font-size: 12px;
-    }
+    } */
     .first-slide-div{
         width:100%;
         padding: 0.1rem;
@@ -82,11 +82,11 @@
     .overlayimg{
         bottom: -10px;
     }
-    .slide-input{
+    /* .slide-input{
         outline: none;
         border: none;
         font-size: 12px;
-    }
+    } */
     .carousel-caption{
         top: 20px;
         bottom: auto;
