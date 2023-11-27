@@ -21,7 +21,7 @@ function Footer() {
             <div>
                 <img src={instalogo} alt="insta logo" className='me-3' />
                 <img src={twitterlogo} alt="twitter logo" className='me-3' />
-                <img src={linkedinlogo} alt="linkedin logo" className='me-3' />
+                <a href="https://www.linkedin.com/company/travelout-now/"><img src={linkedinlogo} alt="linkedin logo" className='me-3' /></a>
                 <img src={tiktoklogo} alt="tiktok logo" />
             </div>
         </div>
