@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -14,6 +14,10 @@ import './styles.css'
 import EmailWaitlist from '../EmailWaitlist/EmailWaitlist'
 
 function AppStore({color}) {
+    const [successMessage, setSuccessMessage] = useState("");
+    const pull_data = (data) => {
+        setSuccessMessage(data); // LOGS DATA FROM CHILD (My name is Dean Winchester... &)
+      }
   return (
     <Container fluid style={{backgroundColor:`${color}`}}>
         <Row>
@@ -27,8 +31,9 @@ function AppStore({color}) {
                         <img src={app1store}/>
                     </div>
                     <div className='bg-light mt-5 rounded-pill border join-waitlist'>
-                        <EmailWaitlist />
+                        <EmailWaitlist func={pull_data} />
                     </div>
+                    <p className='text-dark'>{successMessage}</p>
                 </div>
             </Col>
             <Col sm="12" md="6" className='phones3div'>

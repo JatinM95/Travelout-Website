@@ -14,17 +14,15 @@ function EmailWaitlist(props) {
     handleSubmit,
     formState: { isSubmitting },
   } = useForm();
-  // const [successMessage, setSuccessMessage] = useState("");
+  const [email, setEmail] = useState("");
 
   function onSubmit(data) {
     axios
       .post("https://eomfi00i6qv9scg.m.pipedream.net", data)
       .then((response) => {
-        // setSuccessMessage(
-        //   `Thanks for joining 😊`
-        // );
         props.func("Thanks for joining 😊");
-        document.getElementById("mailid").value = "";
+        setEmail("");
+        // document.getElementById("mailid").value = "";
       })
       .catch((e) => console.error(e));
       
@@ -35,7 +33,7 @@ function EmailWaitlist(props) {
     <Form onSubmit={handleSubmit(onSubmit)}>
       <Row>
           <Col xs="7" lg="7" className='pr-2' controlId="validationCustom01">
-            <Form.Control {...register("email")} className='bg-light slide-input' type='email' placeholder='Enter your email ID' id="mailid" />
+            <Form.Control {...register("email")} className='bg-light slide-input' type='email' placeholder='Enter your email ID' id="mailid" value={email} onChange={(e)=>setEmail(e.target.value)} />
           </Col>
           <Col xs="5" lg="5" className='pl-2' controlId="validationCustom02">
             <Button type='submit' className='w-100 btn-info text-light first-slide-button'>{isSubmitting ? "Joining" : "Join the waitlist"}</Button>
