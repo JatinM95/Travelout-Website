@@ -6,14 +6,21 @@ import slide3 from '../../assets/images/img_bgimg11_1117x1512.png'
 import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.png'
 import './styles.css'
 import EmailWaitlist from '../EmailWaitlist/EmailWaitlist'
+import Popup from '../Popup/Popup'
 
 function Slider() {
-    const [successMessage, setSuccessMessage] = useState(""); 
+    // const [successMessage, setSuccessMessage] = useState("");
+    const [modalShow, setModalShow] = useState(false); 
     const pull_data = (data) => {
-        setSuccessMessage(data); // LOGS DATA FROM CHILD (My name is Dean Winchester... &)
+        // setSuccessMessage(data); // LOGS DATA FROM CHILD (My name is Dean Winchester... &)
+        setModalShow(true);
       }
   return (
     <>
+    <Popup
+    show={modalShow}
+    onHide={() => setModalShow(false)} 
+    />
     <Carousel indicators={false}>
         <Carousel.Item>
             <div className='position-relative'>
@@ -29,7 +36,7 @@ function Slider() {
                 <div className='bg-light rounded-pill border first-slide-div'>
                     <EmailWaitlist func={pull_data}/>
                 </div>
-                <p className='text-dark'>{successMessage}</p>
+                {/* <p className='text-dark'>{successMessage}</p> */}
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -46,7 +53,7 @@ function Slider() {
                 <div className='bg-light rounded-pill border first-slide-div'>
                     <EmailWaitlist func={pull_data}/>
                 </div>
-                <p className='text-dark'>{successMessage}</p>
+                {/* <p className='text-dark'>{successMessage}</p> */}
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -63,7 +70,7 @@ function Slider() {
                 <div className='bg-light rounded-pill border first-slide-div'>
                     <EmailWaitlist func={pull_data}/>
                 </div>
-                <p className='text-dark'>{successMessage}</p>
+                {/* <p className='text-dark'>{successMessage}</p> */}
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>

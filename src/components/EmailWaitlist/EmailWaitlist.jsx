@@ -20,7 +20,7 @@ function EmailWaitlist(props) {
     axios
       .post("https://eomfi00i6qv9scg.m.pipedream.net", data)
       .then((response) => {
-        props.func("Thanks for joining 😊");
+        props.func("Thank you for joining the waitlist 😊");
         setEmail("");
         // document.getElementById("mailid").value = "";
       })
