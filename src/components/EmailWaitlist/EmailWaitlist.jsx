@@ -17,6 +17,9 @@ function EmailWaitlist(props) {
   const [email, setEmail] = useState("");
 
   function onSubmit(data) {
+    if(email===""){
+      return;
+    }
     axios
       .post("https://eomfi00i6qv9scg.m.pipedream.net", data)
       .then((response) => {
