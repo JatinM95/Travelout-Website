@@ -29,7 +29,9 @@ function Navbar1({logo, background}) {
                   <Nav.Link>
                   <Link to={"/about"} className={textcolor}>About Us</Link>
                   </Nav.Link>
-                  <Nav.Link href='#' className={textcolor}>Our Stories</Nav.Link>
+                  <Nav.Link>
+                  <Link to={"/our_stories"} className={textcolor}>Our Stories</Link>
+                  </Nav.Link>
                   <Link to={"/contact"}>
                   <Button variant={variant_Btn} className='rounded-pill' style={{width:'100px'}}>Contact</Button>
                   </Link>

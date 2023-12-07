@@ -12,7 +12,7 @@ function Faqs() {
         <h1 className='w-50 m-auto text-center'>
             Join the waitlist to find your future travel buddy
         </h1>
-        <Button className='btn-info rounded-pill text-light btn m-auto d-block mt-5'>Join the waitlist</Button>
+        <Button className='rounded-pill text-light btn m-auto d-block mt-5' style={{backgroundColor:"#0098D6"}}>Join the waitlist</Button>
         <Row className='faq_content'>
             <Col md="6" sm="6" lg="6" className='d-flex align-items-center justify-content-center'>
                 <h1 className='w-75'>Frequently asked questions</h1>

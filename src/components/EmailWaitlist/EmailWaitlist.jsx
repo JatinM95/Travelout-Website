@@ -39,7 +39,7 @@ function EmailWaitlist(props) {
             <Form.Control {...register("email")} className='bg-light slide-input' type='email' placeholder='Enter your email ID' id="mailid" value={email} onChange={(e)=>setEmail(e.target.value)} />
           </Col>
           <Col xs="5" lg="5" className='pl-2' controlId="validationCustom02">
-            <Button type='submit' className='w-100 btn-info text-light first-slide-button'>{isSubmitting ? "Joining" : "Join the waitlist"}</Button>
+            <Button type='submit' className='w-100 text-light first-slide-button'>{isSubmitting ? "Joining" : "Join the waitlist"}</Button>
           </Col>
           {/* {successMessage && <p>{successMessage}</p>} */}
       </Row>

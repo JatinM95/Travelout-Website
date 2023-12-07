@@ -4,17 +4,17 @@ import logo from '../../assets/images/img_frame1116605564_white_a700.svg'
 import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.png'
 import './styles.css'
 
-function Aboutusface() {
+function Aboutusface({title, head1, head2}) {
   return (
-    <div className='bg-info position-relative'>
+    <div className='position-relative' style={{backgroundColor:"#0098D6"}}>
         <Navbar1 logo={logo} background={1}/>
         <div className='text-center faceText'>
-            <p className='text-light'>ABOUT US</p>
+            <p className='text-light'>{title}</p>
             <h1 className='text-light'>
-                We want to make travelling
+                {head1}
             </h1>
             <h1 className='text-light'>
-                fun, safe and more social
+                {head2}
             </h1>
         </div>
         <img
