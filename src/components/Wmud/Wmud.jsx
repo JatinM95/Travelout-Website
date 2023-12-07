@@ -33,7 +33,7 @@ function Wmud() {
                     <Col>
                     <strong>
                     {/* <p style={{color:"lightgrey"}}> <span className='border'>01</span> Transperence</p> */}
-                    <p role='button' style={dark===2?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(2)}> <span className='border border-dark rounded-circle me-3'>02</span>Beyond Words</p>
+                    <p role='button' style={dark===2?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(2)}> <span className='border border-dark rounded-circle me-3'>02</span>BEYOND WORDS</p>
                     </strong>
                     </Col>
                     <Col>
@@ -44,7 +44,7 @@ function Wmud() {
                     <Col>
                     <strong>
                     {/* <p style={{color:"lightgrey"}}> <span className='border'>01</span> Transperence</p> */}
-                    <p role='button' style={dark===3?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(3)}> <span className='border border-dark rounded-circle me-3'>03</span>People First</p>
+                    <p role='button' style={dark===3?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(3)}> <span className='border border-dark rounded-circle me-3'>03</span>PEOPLE FIRST</p>
                     </strong>
                     </Col>
                     <Col>
@@ -55,7 +55,7 @@ function Wmud() {
                     <Col>
                     <strong>
                     {/* <p style={{color:"lightgrey"}}> <span className='border'>01</span> Transperence</p> */}
-                    <p role='button' style={dark===4?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(4)}> <span className='border border-dark rounded-circle me-3'>04</span>Purpose-Driven</p>
+                    <p role='button' style={dark===4?{color:"black"}:{color:"lightgrey"}} onClick={()=>setDark(4)}> <span className='border border-dark rounded-circle me-3'>04</span>PURPOSE-DRIVEN</p>
                     </strong>
                     </Col>
                     <Col>

@@ -9,13 +9,17 @@ import sixthStory from '../../assets/images/img_rectangle8632_4.png';
 import seventhStory from '../../assets/images/img_rectangle8632_5.png';
 import eighthStory from '../../assets/images/img_rectangle8632_6.png';
 import ninethStory from '../../assets/images/img_rectangle8632_7.png';
+import { Link } from 'react-router-dom';
+import './multiplestories.css';
 
 function MultipleStories() {
   return (
     <Container className='mt-5 mb-5'>
         <Row>
             <Col md="4" className='p-3'>
+            <Link to="/wanderlust_diaries">
                 <img src={firstStory} width={"100%"} alt="first_story" />
+            </Link>
                 <h5 className='mt-3'>Wanderlust Diaries: Discovering the Soul of Solo Travel</h5>
                 <p>Published: 15.11.2023 | 3 min read</p>
             </Col>

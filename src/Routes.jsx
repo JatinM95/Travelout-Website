@@ -6,6 +6,7 @@ const AboutUs = React.lazy(() => import("./pages/AboutUs"));
 const Contact = React.lazy(() => import("./pages/Contact"));
 const OurStories = React.lazy(() => import("./pages/OurStories"));
 const PrivacyPolicy = React.lazy(() => import("./pages/PrivacyPolicy"));
+const WanderlustDiaries = React.lazy(() => import("./pages/StoriesWanderlustDiaries"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
@@ -17,6 +18,7 @@ const ProjectRoutes = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/our_stories" element={<OurStories />} />
           <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+          <Route path="/wanderlust_diaries" element={<WanderlustDiaries />} />
         </Routes>
       </Router>
     </React.Suspense>
