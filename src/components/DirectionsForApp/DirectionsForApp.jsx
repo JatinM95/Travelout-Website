@@ -7,7 +7,7 @@ import iphoneInner1 from '../../assets/images/Image_Here.svg';
 import iphoneInner2 from '../../assets/images/Image_Here_2.svg';
 import iphoneInner3 from '../../assets/images/Image_Here_3.svg';
 import iphoneInner4 from '../../assets/images/Image_Here_4.svg';
-import iphoneInner5 from '../../assets/images/Image_Here_5.svg';
+import iphoneInner5 from '../../assets/images/verify_screen.png';
 import './styles.css'
 
 function DirectionsForApp() {
@@ -106,8 +106,8 @@ function DirectionsForApp() {
         <Row className='justify-content-between mt-5'>
           <Col sm='12' md="12" lg="6" className='d-flex align-items-center justify-content-center'>
             <div className='sidetext'>
-            <h2>Explore and plan the trip</h2>
-            <p></p>
+            <h2>Verify your profile</h2>
+            <p>Begin your adventure by ensuring a safe and authentic community through our cutting-edge profile verification technology. We prioritize your safety, guaranteeing that each potential travel companion is verified, creating a trusted space for meaningful connections.</p>
             </div>
           </Col>
           <Col lg="6" sm="12">
@@ -117,6 +117,8 @@ function DirectionsForApp() {
             className='position-absolute inscreen d-block m-auto' 
             src={iphoneInner5} 
             alt='overlay slide'
+            width={221}
+            height={478}
             />
             </div>
           </Col>

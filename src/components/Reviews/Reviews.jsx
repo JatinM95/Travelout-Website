@@ -20,7 +20,7 @@ function Reviews() {
                     <h1 className='mb-0 pb-0'>
                     What our early access users say about
                     </h1>
-                    <h1 className='text-info mt-0 pt-0'>Travelout</h1>
+                    <h1 className='text-info mt-0 pt-0'>travelout</h1>
                     </div>
                     {/* <h1>Travelout</h1> */}
                 </Row>
