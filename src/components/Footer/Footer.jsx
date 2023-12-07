@@ -14,7 +14,7 @@ function Footer() {
         <div className='d-flex justify-content-center text-light mt-4 pb-3'>
           <Link to="/about" className='me-3 text-light btn'>About us</Link>
           <Link to="/our_stories" className='me-3 text-light btn'>Our Stories</Link>
-          <Link className='me-3 text-light btn'>Privacy policy</Link>
+          <Link to="/privacy_policy" className='me-3 text-light btn'>Privacy policy</Link>
         </div>
         <div className='m-auto pb-4 pt-4 d-flex border-top justify-content-between' style={{width:"85%"}}>
             <p className='m-0 text-light'>Copyright © 2023 Travelout All rights reserved</p>
