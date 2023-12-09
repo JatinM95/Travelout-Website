@@ -22,7 +22,7 @@ Website live at https://www.travelouts.de/
 
 ## Usage
 To run the project locally:
-1. Start the development server: `npm start`
+1. Start the development server: `npm run dev`
 2. Open your browser and go to `http://localhost:3000`
 
 ## Features
