@@ -13,16 +13,18 @@ function WanderlustDiaries() {
             <Navbar1 logo={logo} />
             <Container className='mt-5 mb-5'>
                 <Row>
-                    <Col md="4">
-                        <img src={firstStory} alt="image" width={"100%"} />
-                    </Col>
-                    <Col md="8">
+                    <Col md="12">
                         <h1>
                             Wanderlust Diaries: Discovering the Soul of Solo Travel
                         </h1>
                         <p className='text-justify'>
-                        Published: 15.11.2023 | 3 min read
+                            Published: 15.11.2023 | 3 min read
                         </p>
+                    </Col>
+                    <Col md="12" className='mt-4 mb-4'>
+                        <img src={firstStory} alt="image" width={"100%"} />
+                    </Col>
+                    <Col md="12">
                         <p className='text-justify'>
                             In the hushed footsteps of solo adventures, there lies a symphony of self-discovery that transcends the mere physical act of traversing foreign landscapes. As the sun kisses the cobblestone streets of ancient cities or dips below the horizon of untouched beaches, solo travel unveils not just destinations but layers of one's own soul. The rhythmic echoes of solitary footsteps become a dance with vulnerability and courage, leading the wanderer towards the very core of their being.
                         </p>
