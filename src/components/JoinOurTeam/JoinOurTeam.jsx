@@ -24,7 +24,7 @@ function JoinOurTeam() {
         <Row className='text-center'>
             <Col sm="4" className='p-5'>
             <Image src={founder1} roundedCircle fluid/>
-            <p className='mt-3 mb-0'>FOUNDER & CEO</p>
+            <p className='mt-3 mb-0'>CO-FOUNDER & CEO</p>
             <h4>Theodora Chatzipavlidis</h4>
             <a href="https://www.linkedin.com/in/theodora-chatzipavlidis/"><img src={linkedinLogo} alt="linkedin logo" /></a>
             </Col>

@@ -35,7 +35,7 @@ function EmailWaitlist(props) {
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
       <Row>
-          <Col xs="7" lg="7" className='pr-2' controlId="validationCustom01">
+          <Col xs="7" lg="7" className='pr-2 my-auto' controlId="validationCustom01">
             <Form.Control {...register("email")} className='bg-light slide-input' type='email' placeholder='Enter your email ID' id="mailid" value={email} onChange={(e)=>setEmail(e.target.value)} />
           </Col>
           <Col xs="5" lg="5" className='pl-2' controlId="validationCustom02">
