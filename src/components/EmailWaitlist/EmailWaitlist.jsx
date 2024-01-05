@@ -36,9 +36,9 @@ function EmailWaitlist(props) {
     <Form onSubmit={handleSubmit(onSubmit)}>
       <Row>
           <Col xs="7" lg="7" className='pr-2 my-auto' controlId="validationCustom01">
-            <Form.Control {...register("email")} className='bg-light slide-input' type='email' placeholder='Enter your email ID' id="mailid" value={email} onChange={(e)=>setEmail(e.target.value)} />
+            <input {...register("email")} className='bg-light slide-input text-dark' size="30" type='email' placeholder='Enter your email ID' id="mailid" value={email} onChange={(e)=>setEmail(e.target.value)} />
           </Col>
-          <Col xs="5" lg="5" className='pl-2' controlId="validationCustom02">
+          <Col xs="5" lg="5" controlId="validationCustom02">
             <Button type='submit' className='w-100 text-light first-slide-button'>{isSubmitting ? "Joining" : "Join the waitlist"}</Button>
           </Col>
           {/* {successMessage && <p>{successMessage}</p>} */}
