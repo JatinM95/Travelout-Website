@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar1 from '../Navbar/Navbar'
 import logo from '../../assets/images/img_frame1116605564_white_a700.svg'
-import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.png'
+import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.webp'
 import './styles.css'
 
 function Aboutusface({title, head1, head2}) {

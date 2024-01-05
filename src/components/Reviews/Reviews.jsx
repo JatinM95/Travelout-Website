@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card';
-import cardimg1 from '../../assets/images/img_maskgroup_60x59.png';
-import cardimg2 from '../../assets/images/img_rectangle952_59x59.png';
-import cardimg3 from '../../assets/images/img_rectangle952.png';
+import cardimg1 from '../../assets/images/img_maskgroup_60x59.webp';
+import cardimg2 from '../../assets/images/img_rectangle952_59x59.webp';
+import cardimg3 from '../../assets/images/img_rectangle952.webp';
 import quotes from '../../assets/images/img_quotes.svg';
 import './styles.css'
 // img_rectangle952.png

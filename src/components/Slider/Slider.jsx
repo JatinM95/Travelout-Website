@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import slide1 from '../../assets/images/img_bgimg12.jpg';
+import slide1 from '../../assets/images/img_bgimg12.webp';
 import slide2 from '../../assets/images/img_bgimg11_1121x1512.jpg';
-import slide3 from '../../assets/images/img_bgimg11_1117x1512.jpg';
-import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.png';
+import slide3 from '../../assets/images/img_bgimg11_1117x1512.webp';
+import overlayslide from '../../assets/images/img_62b342e93a6b3e0aaad173c0png.webp';
 import './styles.css';
 import EmailWaitlist from '../EmailWaitlist/EmailWaitlist';
 import Popup from '../Popup/Popup';

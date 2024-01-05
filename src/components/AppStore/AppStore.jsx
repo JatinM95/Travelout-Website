@@ -7,7 +7,7 @@ import playstore from '../../assets/images/img_downloadbadge.svg'
 import app1store from '../../assets/images/Download_on_the_App_Store_Badge.svg'
 // download-on-the-app-store-apple-logo-svgrepo-com
 // Download_on_the_App_Store_Badge
-import appframe from '../../assets/images/Frame_1116605232.png'
+import appframe from '../../assets/images/Frame_1116605232.webp'
 import './styles.css'
 import EmailWaitlist from '../EmailWaitlist/EmailWaitlist'
 import Popup from '../Popup/Popup'
